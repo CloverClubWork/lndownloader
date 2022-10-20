@@ -1,3 +1,21 @@
 body {
-    font-size: 15pt;
+  font-size: 12pt;
+  padding: 8px;
+  background-color: darkslategrey;
+  color: floralwhite;
+}
+.main{max-width: 100%;height: auto}
+.header{width: inherit;height: auto;padding: 5pt;margin: 0;display: flex}
+.header > img{width: 50px;height: 50px}
+.header #wel{padding: 0 8px}
+.header > #wel > #title{font-weight: 800;padding: 0;margin: 0;font-size: 12pt}
+.header > #wel > p{margin: 0;padding: 0;font-size: 8pt}
+.download-con{width: inherit;height: auto;}
+.download-con h4{padding-bottom: 0;}
+.download-con .downloadbtn{width: 100%;background-color: royalblue;color: floralwhite;padding: 10px;margin: 0;border-radius: 10px;border:none;text-decoration: none}
+.download-con .downloadbtn:hover, .downloadbtn:focus{background-color: darkblue;outline: none}
+.info{margin-top: 10px}
+
+@media only screen and (min-width: 800px){
+  .download-con .downloadbtn{width: 300px}
 }
